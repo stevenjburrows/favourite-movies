@@ -5,7 +5,6 @@ We kindly ask you to solve the task below. By solving and submitting this assign
 ## The task
 - Build a webserver with PHP (Apache or Nginx as webserver) or JavaScript (NodeJs as webserver) as the server side language
 - Use MySQL, MariaDB, PostgreSQL, SQL Server or SQLite as the database
-- Using framework such as AngularJS, Angular, ReactJS, Vue, etc. is a plus but not necesssary
 
 Build a single page to show everyone's favourite movies from database, it should at least show movie Title, Poster, and Plot synopsis using OMDb API (https://www.omdbapi.com) or any other public movie API that supports IMDb ID (e.g. tt8526872)
 
@@ -15,8 +14,9 @@ Please use the data set provided in the SQL dump in this repo as a base.
 You are allowed to use any library or framework to help you with the task.
 
 ## Bonus task
+- Use client side framework such as AngularJS, Angular, ReactJS, Vue, etc.
 - Add simple authentication for any user (or all users) and only authenticated user could view, or edit their favourite movies. You could adjust the database structure if needed.
-- Add unit test
+- Add unit tests
 
 ## Expectations
 Make a copy of this repo. Solve the task below. Push your code to a public repo, and send us the link as a reply to our email.
