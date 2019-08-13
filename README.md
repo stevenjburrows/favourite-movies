@@ -15,8 +15,9 @@ You are allowed to use any library or framework to help you with the task.
 
 ## Bonus task
 - Use client side framework such as AngularJS, Angular, ReactJS, Vue, etc.
-- Add simple authentication for any user (or all users) and only authenticated user could view, or edit their favourite movies. You could adjust the database structure if needed.
+- Add simple authentication for any user (or all users) and only authenticated user could view or edit their favourite movies. You could adjust the database structure if needed.
 - Add unit tests
+- Any other improvement or modification (please add it into the readme and explain why its advantageous to add it)
 
 ## Expectations
 Make a copy of this repo. Solve the task below. Push your code to a public repo, and send us the link as a reply to our email.
