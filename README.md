@@ -27,7 +27,7 @@ Make a copy of this repo. Solve the task. Push your code to a public repo, and s
 
 Your solution should include a short readme describing your assumptions regarding the task, technology choice, your solution, how to use/test it and any final considerations such as known errors, limitation, something you struggle with, next steps, security concerns etc. 
 
-Don’t worry we are not expecting this thing to be perfect.
+Don't worry we are not expecting this thing to be perfect.
 
 ## Note
 To get an API key in [OMDb API](https://www.omdbapi.com), you will need to register with your name and email address. If you do not constent to give such details to OMDb API, please let us know and we will happily give you an API key for this assignment.
