@@ -30,4 +30,4 @@ Your solution should include a short readme describing your assumptions regardin
 Don't worry we are not expecting this thing to be perfect.
 
 ## Note
-To get an API key in [OMDb API](https://www.omdbapi.com), you will need to register with your name and email address. If you do not constent to give such details to OMDb API, please let us know and we will happily give you an API key for this assignment.
+To get an API key in [OMDb API](https://www.omdbapi.com), you will need to register with your name and email address. If you do not consent to give such details to OMDb API, please let us know and we will happily give you an API key for this assignment.
