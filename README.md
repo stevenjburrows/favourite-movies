@@ -6,7 +6,7 @@ We kindly ask you to solve the task below. By solving and submitting this assign
 - Build a service with PHP or JavaScript (NodeJs as webserver) as the server side language
 - Use MySQL, MariaDB, PostgreSQL, SQL Server or SQLite as the database
 
-Build a single page to show everyone's favourite movies from database, it should at least show movie Title, Poster, and Plot synopsis using [OMDb API](https://www.omdbapi.com) or any other public movie API that supports IMDb ID (e.g. tt8526872)
+Build an SPA (Single Page Application) that shows everyone's favourite movies from database, it should at least show movie Title, Poster, and Plot synopsis using [OMDb API](https://www.omdbapi.com) or any other public movie API that supports IMDb ID (e.g. tt8526872)
 
 It should also be able to add or remove list of favourite movies.
 
