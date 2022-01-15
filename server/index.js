@@ -7,7 +7,9 @@ app.disable("x-powered-by");
 
 app.use("/api", routes);
 app.use(cors());
+const port = process.env.PORT || 3000
 
-app.listen("3000", () => {
+app.listen(port, () => {
   console.log("server is running", process.env.NODE_ENV);
+  console.log("server is running on port ", port);
 });
