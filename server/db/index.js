@@ -14,14 +14,12 @@ let pgdb = {};
 pgdb.all = () => {
   
   return new Promise((resolve, reject) => {
-    console.log(connectionString);
-    pool.query(
+     pool.query(
       `SELECT * FROM users`,
       (err, results) => {
         if (err) {
           return reject(err);
         }
-        console.log(results);
         return resolve(results);
       }
     );
@@ -33,7 +31,23 @@ pgdb.single = (id) => {
   return new Promise((resolve, reject) => {
     
     pool.query(
-      `SELECT * FROM users WHERE id = $1`, [id],
+      `SELECT id,firstname,lastname,favourite_movies FROM users WHERE id = $1`, [id],
+      (err, results) => {
+        if (err) {
+          return reject(err);
+        }
+        return resolve(results);
+      }
+    );
+  });
+}
+
+pgdb.auth = (username) => {
+  
+  return new Promise((resolve, reject) => {
+    
+    pool.query(
+      `SELECT id,pword FROM users WHERE username = $1`, [username],
       (err, results) => {
         if (err) {
           return reject(err);
@@ -58,5 +72,7 @@ pgdb.updateMovies = (movieArray, id) => {
     )
   })
 }
+
+
 
 module.exports = pgdb;
