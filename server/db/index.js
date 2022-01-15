@@ -14,7 +14,7 @@ let pgdb = {};
 pgdb.all = () => {
   
   return new Promise((resolve, reject) => {
-    
+    console.log(connectionString);
     pool.query(
       `SELECT * FROM users`,
       (err, results) => {
