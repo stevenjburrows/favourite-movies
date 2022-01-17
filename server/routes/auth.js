@@ -7,7 +7,11 @@ router.post("/", async (req, res, next) => {
     let password = req.body.pw
   try {
     let results = await db.auth(username);
-    // res.json(results.rows[0].pword)
+    if(results.rows[0] == undefined){
+      res.status(401)
+      return res.json({'error': 'Invalid username or password'})
+    }
+
     if (results.rows[0].pword === password) {
         let id =results.rows[0].id
         try {
@@ -18,7 +22,7 @@ router.post("/", async (req, res, next) => {
             res.sendStatus(500);
           }
     } else {
-        return res.json({'error': 'Invalid username or password'})
+        return res.status(401).json({'error': 'Invalid username or password'})
     }
   } catch (e) {
     console.log(e);

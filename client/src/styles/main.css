@@ -1,3 +1,113 @@
-#root {
-  height: 100vh;
+/* Main background  */
+
+.mainWrapper {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-image: radial-gradient(at top left, #bc9ec1, transparent),
+    radial-gradient(at top right, #e3bac6, transparent),
+    radial-gradient(at bottom left, #fde8e9, transparent);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Login page CSS */
+
+.loginWrapper {
+  align-self: center;
+}
+
+.loginWrapper h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginWrapper input,
+.submitImdb input,
+.favMovieButton button,
+.foundMovieButton button {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  border-radius: 15px;
+  background-color: #5c9ead;
+  color: #fde8e9;
+  cursor: pointer;
+}
+
+.userInput,
+.searchImdb {
+  padding-bottom: 1.5rem;
+}
+.userInput input,
+.searchImdb input {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  color: gray;
+  cursor: default;
+}
+
+/* movie page CSS */
+
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.movieSearch {
+  text-align: center;
+}
+
+.favoriteMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.favMoviesWrapper {
+  max-width: 24%;
+}
+
+.favoriteMovies ul,
+.foundMovieInfoWrapper ul {
+  text-align: left;
+  list-style: none;
+}
+
+.favoriteMovies li,
+.foundMovieInfoWrapper li {
+  padding-bottom: 1rem;
+}
+
+.submitImdb input,
+.favMovieButton button,
+.foundMovieButton button {
+  padding: 5px 50px;
+}
+
+.formError {
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* film search */
+
+.foundMovieInfoWrapper {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }

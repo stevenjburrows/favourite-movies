@@ -14,7 +14,7 @@ axios.defaults.baseURL = 'http://www.omdbapi.com'
 router.get("/", function (req, res, next) {
     const imdb = req.query.imdb
     const url = `?i=${imdb}&apikey=${apiKey}`
-    console.log(url);
+
     axios(url, {
       method: 'get',
     
