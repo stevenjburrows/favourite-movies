@@ -1,6 +1,11 @@
 # Lumina Learning Ltd - Graduate Software Developer Assignment
 We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, selection of 3rd party libraries, documentation etc.
+## Tech Stack
+For this I have used PostgreSQL, Node.JS, Express.JS and React.JS
+I used PostgreSQL as I already had that installed on my Mac and it allowed me to quickly get up and running with sql quickly
+I am more familiar with Node and Express recently so decided to go with that and most of my projects recently have been with React and I am more familiar with it that the other frameworks listed below
 
+## 
 
 ## The task
 - Build a service with PHP or JavaScript (NodeJs as webserver) as the server side language

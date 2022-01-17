@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import LoginPage from '../components/LoginPage'
 import axios from 'axios'
 import MoviesPage from '../components/MoviesPage'
