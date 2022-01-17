@@ -1,25 +1,36 @@
 # Lumina Learning Ltd - Graduate Software Developer Assignment
 We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, selection of 3rd party libraries, documentation etc.
 ## Tech Stack
+
 For this I have used PostgreSQL, Node.JS, Express.JS and React.JS
 I used PostgreSQL as I already had that installed on my Mac and it allowed me to quickly get up and running with sql quickly
 I am more familiar with Node and Express recently so decided to go with that and most of my projects recently have been with React and I am more familiar with it that the other frameworks listed below
 
 ## The App
+
 I was able to build the app using React from the bonus task. The app also has basic authentication and the backend and PostgreSQL is hosted in Heroku and the frontend is hosted in Netlify.
 
 For the CSS I used a background generator to add some basic background to the app while keeping it lightweight.  I also used [coolos.co](https://coolors.co) to help get colours that go together and don't clash.
 
-This app assumes you know the IMDB ID for the film you want 
+This app assumes you know the IMDB ID for the film you want as you need it for the search
 
 ## Improvements and thoughts
+
 At the moment the app is using plain text for the password, both in storing and passing from frontend to backend.  Passwords really should be hashed and slated but due to the nature of this task and time frame it was not completed.
 
 When someone logs in the front end is retrieving the favourite movies as this was where I was more comfortable.  I would like to have seen the backend retrieve the favourite movie details from the OMDb then serve everything up to the frontend.
 
 I have done some styling but it would also would have been nice to use something like Material UI to help make buttons and input fields a standard but I didn't want to compromise the app in the time frame
 
-ANother improvement would be to att OMDb's search using the name and year so if you don't know the ID you can still find your film
+Another improvement would be to att OMDb's search using the name and year so if you don't know the ID you can still find your film
+
+One last improvement would have been to make sure the Delete from Favourites buttons were all aligned correctly but I ran out of time to compete this.
+
+## Testing
+
+While I never managed to get round to the testing I would have used Supertest and Nock to test the backend SQL and API calls
+
+___
 ## The task
 - Build a service with PHP or JavaScript (NodeJs as webserver) as the server side language
 - Use MySQL, MariaDB, PostgreSQL, SQL Server or SQLite as the database
