@@ -15,7 +15,7 @@ function HomePageContainer() {
 
     let navigate = useNavigate();
     //setting the base URL to make it easy to add more
-axios.defaults.baseURL = 'http://luminar-backend.herokuapp.com/api'
+axios.defaults.baseURL = 'https://luminar-backend.herokuapp.com/api'
 
     const login = async (username, password) => {
         
